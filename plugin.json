@@ -1,0 +1,8 @@
+{
+  "name": "agent-zero-skills-hub",
+  "displayName": "Hub Central de Skills & Agente 0",
+  "description": "Controlador central de metodologia, TDD, depuração sistemática, arquitetura e orquestrador de tokens (Agente 0).",
+  "version": "1.0.0",
+  "skills": "./skills",
+  "rules": "./AGENTS.md"
+}

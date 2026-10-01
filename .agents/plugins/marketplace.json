@@ -1,0 +1,20 @@
+{
+  "name": "agent-zero-skills-hub",
+  "interface": {
+    "displayName": "Hub Central de Skills & Agente 0"
+  },
+  "plugins": [
+    {
+      "name": "agent-zero-skills-hub",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

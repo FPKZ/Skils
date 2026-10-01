@@ -1,0 +1,6 @@
+{
+  "name": "agent-zero-skills-hub",
+  "description": "Controlador central de metodologia, TDD, depuração sistemática, arquitetura e orquestrador de tokens (Agente 0).",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md"
+}
