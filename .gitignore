@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local cache & temp
+.scratch/
+*.log
