@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-REPO_URL="https://github.com/SEU_USUARIO/skils.git"
+REPO_URL="https://github.com/FPKZ/Skils.git"
 INSTALL_DIR="$HOME/.local/share/antigravity-skills"
 
 echo "=== Instalador do Hub Central de Skills para Antigravity ==="
