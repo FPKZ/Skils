@@ -14,7 +14,19 @@ Esta pasta contém as personas e definições dos agentes especializados do **Hu
    - Orquestra os subagentes especialistas com TDD e verificação de testes.
    - Skills: `writing-plans`, `codebase-design`, `systematic-debugging`, `verification-before-completion`.
 
-3. **`agent-architect.md` (Arquiteto e Forjador de Agentes)**
+3. **`backend-forge.md` (Subagente Backend & Engenharia de Baixa Latência)**
+   - Focado em regras de negócio, serviços, persistência otimizada, O(1) lookups e TDD estrito.
+   - Skills: `test-driven-development`, `backend-response-time`, `codebase-design`, `systematic-debugging`.
+
+4. **`quality-auditor.md` (Auditor de Qualidade & Engenharia Sênior - Sentinel)**
+   - Auditoria de SOLID, refatoração proativa (regra do escoteiro), budgets de latência e execução de testes.
+   - Skills: `backend-response-time`, `codebase-design`, `verification-before-completion`, `test-driven-development`.
+
+5. **`investigator-cipher.md` (Subagente Investigador Técnico - Cipher)**
+   - Investigação profunda na web, garimpo comunitário (GitHub Issues, Reddit, HN), busca de bugs conhecidos, workarounds e brechas de segurança.
+   - Skills: `deep-technical-research`, `systematic-debugging`.
+
+6. **`agent-architect.md` (Arquiteto e Forjador de Agentes)**
    - Focado em criar novos agentes sob demanda e refinar os existentes com as 5 leis de alta eficácia.
 
 ---

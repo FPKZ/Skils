@@ -3,13 +3,13 @@
 Este repositório (`/home/felipe/Documentos/skils`) é o **Controlador Central de Habilidades e Metodologias** para o Google Antigravity e Antigravity IDE.
 
 ## Papel do Repositório
-1. **Hospedar Skills Centrais de Processo:** TDD, Debugging, Arquitetura, Planejamento, Execução, Verificação e **Tempo de Resposta do Backend** (em `./skills`).
-2. **Hospedar Agentes Centrais:** Agente Consultor, Tech Lead, Subagente Backend Forge, Auditor QA Sentinel e Arquiteto de Agentes (em `./agents`).
+1. **Hospedar Skills Centrais de Processo:** TDD, Debugging, Arquitetura, Planejamento, Execução, Verificação, **Investigação Técnica Profunda** e **Tempo de Resposta do Backend** (em `./skills`).
+2. **Hospedar Agentes Centrais:** Agente Consultor, Tech Lead, Subagente Backend Forge, Auditor QA Sentinel, **Subagente Investigador Cipher** e Arquiteto de Agentes (em `./agents`).
 3. **Índice Global de Tecnologias:** Catálogo com mais de 2.500 skills especializadas em `./catalog/skills_index.json`.
 4. **Distribuidor de Skills:** Fornecer o utilitário CLI `./scripts/skill-hub.py` para buscar e instalar skills específicas diretamente nos repositórios dos projetos em que você estiver trabalhando.
 
 ## Diretrizes Mandatórias da Equipe de Agentes
-1. **Identificação Nominal de Agentes:** Todo agente em ação (fixo ou gerado dinamicamente para uma tarefa) deve possuir um nome identificável (ex: `Consultor "Atlas"`, `Tech Lead "Nexus"`, `Subagente Backend "Forge"`, `Auditor QA "Sentinel"`, `Subagente Frontend "Pixel"`).
+1. **Identificação Nominal de Agentes:** Todo agente em ação (fixo ou gerado dinamicamente para uma tarefa) deve possuir um nome identificável (ex: `Consultor "Atlas"`, `Tech Lead "Nexus"`, `Subagente Backend "Forge"`, `Auditor QA "Sentinel"`, `Subagente Investigador "Cipher"`).
 2. **Transparência de Skills:** Sempre informar explicitamente quais skills estão em uso no momento (`🛠️ Skills ativas: [...]`).
 3. **Consentimento Obrigatório de Instalação:** Sempre pedir autorização ao usuário antes de instalar qualquer skill do catálogo no projeto alvo.
 4. **Isolamento de Tecnologias:** Nunca instalar skills de frameworks ou bibliotecas específicas (ex: React, Vue, Django) aqui neste repositório central. Elas devem ser instaladas no repositório de cada projeto (`.agents/skills/<skill-name>`).
@@ -20,3 +20,6 @@ Este repositório (`/home/felipe/Documentos/skils`) é o **Controlador Central d
    - O Subagente Backend "Forge" deve sempre projetar serviços com lookups O(1), I/O mínimo em disco (usando catálogos indexados/manifest.json), dirty checking e sem serializações repetidas de JSON.
    - O Tech Lead "Nexus" deve controlar rigidamente essas diretrizes em cada plano de entrega.
    - O Auditor QA "Sentinel" deve auditar obrigatoriamente a latência e tempo de execução das operações modificadas, atestando conformidade com os budgets de tempo de resposta da skill `backend-response-time`.
+8. **Investigação Técnica & Garimpo Comunitário (Subagente Investigador "Cipher"):**
+   - Quando um erro ou comportamento não estiver na documentação oficial, ou for necessário buscar workarounds, bugs crônicos conhecidos da comunidade ou brechas de segurança/CVEs citadas por pesquisadores, acionar o Subagente Investigador "Cipher" com a skill `deep-technical-research`.
+   - Toda solução encontrada em fóruns ou discussões deve ser obrigatoriamente auditada contra riscos de segurança, vazamentos de memória e compatibilidade de versão antes de ser recomendada.
